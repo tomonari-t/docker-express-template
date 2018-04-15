@@ -1,0 +1,26 @@
+{
+  "name": "docker-express-template",
+  "version": "1.0.0",
+  "description": "Express templage on Docker",
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node --experimental-modules ./bin/www.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomonari-t/docker-express-template.git"
+  },
+  "author": "tomonari-t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomonari-t/docker-express-template/issues"
+  },
+  "homepage": "https://github.com/tomonari-t/docker-express-template#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
